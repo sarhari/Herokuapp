@@ -1,1 +1,5 @@
 <H1>Welcome</H1>
+
+<%= link_to "Create Employee", :controller => "admin", :action => "create" %>
+
+<%= link_to "Sign out", destroy_user_session_path, :method => :delete %>
